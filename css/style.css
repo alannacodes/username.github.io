@@ -19,7 +19,7 @@ header, nav, main, footer {
 	margin: auto;
 }
 
-
+.active a{ color: red; }
 /* Header styles */
 header { 
 	background-color: #000;
