@@ -1,3 +1,9 @@
+
+$(function() {
+  // Handler for .ready() called.
+
+
+
 function showNav() {
  $('#topnav').html(
 	 `
@@ -29,4 +35,7 @@ function initialize() {
 }
 
 $(initialize());
+
+
+});
 
