@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Waypoints</title>
+	<style>
+		section { height: 80vh; }
+
+	</style>
+</head>
+<body>
+<a href="#3">3rd</a>
+<main class="infinite-container">
+<section id="1" class="infinite-item">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quia, voluptates. Amet odio, quibusdam cum, minus ad esse dolor inventore a magni natus perspiciatis. Iure eius odio impedit suscipit, ab optio ut placeat ea voluptatem adipisci recusandae numquam neque, labore.</p>
+</section>
+<a class="infinite-more-link" href="/next/page">More</a>
+<section  id="2" class="basic-sticky-example">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quia, voluptates. Amet odio, quibusdam cum, minus ad esse dolor inventore a magni natus perspiciatis. Iure eius odio impedit suscipit, ab optio ut placeat ea voluptatem adipisci recusandae numquam neque, labore.</p>
+</section>
+
+
+<section  id="3" class="infinite-item">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quia, voluptates. Amet odio, quibusdam cum, minus ad esse dolor inventore a magni natus perspiciatis. Iure eius odio impedit suscipit, ab optio ut placeat ea voluptatem adipisci recusandae numquam neque, labore.</p>
+</section>
+
+
+<section class="infinite-item">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quia, voluptates. Amet odio, quibusdam cum, minus ad esse dolor inventore a magni natus perspiciatis. Iure eius odio impedit suscipit, ab optio ut placeat ea voluptatem adipisci recusandae numquam neque, labore.</p>
+</section>
+
+<section class="infinite-item">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, quia, voluptates. Amet odio, quibusdam cum, minus ad esse dolor inventore a magni natus perspiciatis. Iure eius odio impedit suscipit, ab optio ut placeat ea voluptatem adipisci recusandae numquam neque, labore.</p>
+</section>
+</main>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script src="shortcuts/sticky.js"></script>
+	<script>
+		var sticky = new Waypoint.Sticky({
+		  element: $('.basic-sticky-example')[0]
+		})
+	</script>
+</body>
+</html>
