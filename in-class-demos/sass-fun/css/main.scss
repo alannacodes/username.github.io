@@ -1,0 +1,53 @@
+/* main.scss */
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Pangolin&display=swap');
+@import 'partials/variables';
+
+
+@mixin stnd-spacing {
+  padding:60px;
+  margin: 80px;
+  border: 1px solid black;
+}
+
+
+body {
+  font-family: $body-font;
+}
+h1, h2, h3, h4 {
+  color: $primary-text;
+  font-family: $header-font;
+}
+
+h1 {
+  font-size: $header-text-lg;
+  color: red;
+}
+h2 {
+  @extend h1;
+  font-size: $header-text-md;
+}
+h3 {
+  font-size: $header-text-sm;
+}
+
+p {
+  font-size: 24px;
+}
+
+.content {
+  width:70%;
+  margin:auto;
+  padding: 20px;
+  p {
+    font-size: 18px;
+  }
+  a {
+    text-decoration:none;
+    color: $highlight-text;
+    &:hover {
+      text-decoration: line-through;
+      color: grayscale($highlight-text)
+    }
+  }
+  @include stnd-spacing();
+}
