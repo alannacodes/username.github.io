@@ -1,17 +1,26 @@
 /* -------------------------------------- *
 General Styles
 * --------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap");
+
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
-
+header {
+  border: 1px solid black;
+  background-image: url("../images/banners/dustin-humes-QvU179UC2Nw-unsplash.jpg");
+  background-size: cover;
+  height: 260px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3 {
   font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Bangers", Impact, sans-serif;
 }
 main,
 header h1,
@@ -31,4 +40,8 @@ nav a:hover {
 nav {
   background-color: #ccc;
   padding: 12px;
+}
+
+.inspiro-img {
+  width: 400px;
 }
