@@ -1,0 +1,122 @@
+/* Enter your Styles below! */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #222;
+}
+body.people-page {
+  color: #e5450a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 44px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+blockquote {
+  margin: 20px 60px;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100vw;
+  background-image: url("../images/home-banner.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ensures that your images stretch the width of their containers */
+img {
+  width: 100%;
+}
+
+a {
+  color: #e5450a;
+  text-decoration: none;
+}
+a:hover {
+  color: #222222;
+}
+main {
+  width: 70%;
+  margin: auto;
+}
+.button {
+  font-size: 22px;
+  display: inline-block;
+  padding: 16px;
+  border: 2px solid #e5450a;
+}
+.button:hover {
+  border: 2px solid #222;
+}
+.people-page .button {
+  border: 2px solid teal;
+}
+.people-page .button:hover {
+  border: 2px solid pink;
+}
+.people-page a {
+  color: teal;
+}
+.people-page a:hover {
+  color: pink;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  width: 60%;
+  margin: auto;
+}
+
+.grid div {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1224px) {
+}
